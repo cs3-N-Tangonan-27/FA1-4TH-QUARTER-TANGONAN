@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+
+    <title> CSFA1 4TH QUARTER </title>
+    </head>
+    <style>
+    
+        
+        form {
+            margin: auto; 
+            width: 300px;
+            margin-top: 50px;
+        }
+        
+        fieldset {
+            border: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        legend {
+            font-weight: bold;
+            margin-bottom: 10px;
+            font-size: 20px;  
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        
+        input{            
+            margin-bottom: 10px;
+            border: 1px solid;
+            padding: 8px;
+            font-family: Arial, sans-serif;
+            border-radius: 5px;
+            width: 400px;
+        } 
+        textarea {
+            padding: 8px;
+            border: 1px solid;
+            margin-bottom: 10px;
+            width: 400px;
+            border-radius: 5px;
+            font-family: Arial, sans-serif;
+         }
+        
+        button {
+            border-radius: 5px;
+            color: white;
+            padding: 10px 20px;
+            background-color: blue;
+            font-size: 16px;
+        }
+        
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Sign Up</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Name" ><br>
+            <label for="username">Username:</label>
+            <input type="text" placeholder="Username" ><br>
+            <label for="password">Password:</label>
+            <input type="password" placeholder="Password" ><br>
+            <label for="confirmPassword">Confirm Password:</label>
+            <input type="password" placeholder="Confirm password" ><br>
+            <label for="email">Email:</label>
+            <input type="email" placeholder="Email" ><br>
+            <label for="address">Address:</label>
+            <input type="text" placeholder="Address"><br>
+            <label for="interests">Interests:</label>
+            <textarea placeholder="Interests" rows="4" col="50"></textarea><br>
+                
+            <button type="submit">Submit</button>
+            <button type="reset">Clear</button>
+        </fieldset>
+    </form>
+</body>
+</html>
